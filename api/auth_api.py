@@ -78,7 +78,7 @@
 #
 
 # module_5/Cinescope/api/auth_api.py
-from custom_requester.custom_requester import CustomRequester
+from custom_requester.custom_requester import CustomRequester #
 from constants import LOGIN_ENDPOINT, REGISTER_ENDPOINT, BASE_URL
 from models.base_models import TestUser
 
