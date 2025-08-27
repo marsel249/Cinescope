@@ -1,5 +1,5 @@
-from module_5.Cinescope.custom_requester.custom_requester import CustomRequester
-from module_5.Cinescope.constants import CINESCOPE_URL
+from custom_requester.custom_requester import CustomRequester
+from constants import CINESCOPE_URL
 
 
 class MoviesAPI(CustomRequester):

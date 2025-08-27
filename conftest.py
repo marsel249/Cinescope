@@ -4,19 +4,19 @@ from os import access
 from faker import Faker
 import pytest
 import requests
-from module_5.Cinescope.constants import BASE_URL, REGISTER_ENDPOINT, LOGIN_ENDPOINT, SUPER_ADMIN_CREDS
-from module_5.Cinescope.custom_requester.custom_requester import CustomRequester
-from module_5.Cinescope.utils.data_generator import DataGenerator
-from module_5.Cinescope.api.api_manager import ApiManager
-from module_5.Cinescope.resources.user_creds import SuperAdminCreds
-from module_5.Cinescope.entities.user import User
-from module_5.Cinescope.enums.enums import Roles
-from module_5.Cinescope.models.base_models import TestUser
+from constants import BASE_URL, REGISTER_ENDPOINT, LOGIN_ENDPOINT, SUPER_ADMIN_CREDS
+from custom_requester.custom_requester import CustomRequester
+from utils.data_generator import DataGenerator
+from api.api_manager import ApiManager
+from resources.user_creds import SuperAdminCreds
+from entities.user import User
+from enums.enums import Roles
+from models.base_models import TestUser
 from enum import Enum
 
 import os
 from dotenv import load_dotenv
-from module_5.Cinescope.db_requester.models import UserDBModel
+from db_requester.models import UserDBModel
 from sqlalchemy import create_engine, Column, String, Boolean, DateTime, text
 from sqlalchemy.orm import declarative_base, sessionmaker
 import datetime

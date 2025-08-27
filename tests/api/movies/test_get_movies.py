@@ -1,6 +1,6 @@
 import random
-from module_5.Cinescope.api.api_manager import ApiManager
-from module_5.Cinescope.utils.data_generator import DataGenerator
+from api.api_manager import ApiManager
+from utils.data_generator import DataGenerator
 
 class TestGetMoviesAPI:
     def test_get_all_movies(self, api_manager: ApiManager):

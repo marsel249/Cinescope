@@ -1,10 +1,10 @@
 import pytest
 
-from module_4.Cinescope.conftest import create_movie
-from module_5.Cinescope.api.api_manager import ApiManager
-from module_5.Cinescope.utils.data_generator import DataGenerator
-from module_5.Cinescope.models.base_models import MovieTestData, MovieResponse, ErrorResponse
-from module_5.Cinescope.db_requester.models import MovieDBModel
+# from conftest import create_movie
+from api.api_manager import ApiManager
+from utils.data_generator import DataGenerator
+from models.base_models import MovieTestData, MovieResponse, ErrorResponse
+from db_requester.models import MovieDBModel
 from sqlalchemy.exc import NoResultFound
 import allure
 
