@@ -1,5 +1,5 @@
 import pytest
-from module_5.Cinescope.resources.user_creds import SuperAdminCreds
+from resources.user_creds import SuperAdminCreds
 
 
 @pytest.mark.parametrize("email, password, expected_status", [

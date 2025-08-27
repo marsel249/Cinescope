@@ -98,7 +98,7 @@ class Config:
 from datetime import datetime
 from typing import Optional, List
 from pydantic import BaseModel, EmailStr, Field, field_validator, ValidationInfo, ConfigDict, HttpUrl
-from module_5.Cinescope.enums.enums import Roles
+from enums.enums import Roles
 from enum import Enum
 
 

@@ -1,4 +1,4 @@
-from module_5.Cinescope.api.api_manager import ApiManager
+from api.api_manager import ApiManager
 
 
 class TestDelMoviesAPI:

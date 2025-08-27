@@ -165,7 +165,7 @@ import os
 import json
 import logging
 from pydantic import BaseModel
-from module_5.Cinescope.constants import RED, GREEN, RESET, CYAN
+from constants import RED, GREEN, RESET, CYAN
 from typing import Any, Iterable
 
 

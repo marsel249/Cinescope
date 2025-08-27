@@ -1,4 +1,4 @@
-from module_5.Cinescope.models.base_models import TestUser, RegisterUserResponse, ErrorResponse
+from models.base_models import TestUser, RegisterUserResponse, ErrorResponse
 
 
 class TestsUser:

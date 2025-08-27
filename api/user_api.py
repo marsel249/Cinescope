@@ -1,5 +1,5 @@
-from module_5.Cinescope.custom_requester.custom_requester import CustomRequester
-from module_5.Cinescope.constants import BASE_URL
+from custom_requester.custom_requester import CustomRequester
+from constants import BASE_URL
 
 class UserAPI(CustomRequester):
     """

@@ -78,9 +78,9 @@
 #
 
 # module_5/Cinescope/api/auth_api.py
-from module_5.Cinescope.custom_requester.custom_requester import CustomRequester
-from module_5.Cinescope.constants import LOGIN_ENDPOINT, REGISTER_ENDPOINT, BASE_URL
-from module_5.Cinescope.models.base_models import TestUser
+from custom_requester.custom_requester import CustomRequester
+from constants import LOGIN_ENDPOINT, REGISTER_ENDPOINT, BASE_URL
+from models.base_models import TestUser
 
 class AuthAPI(CustomRequester):
     def __init__(self, session):

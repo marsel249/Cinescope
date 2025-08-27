@@ -229,9 +229,9 @@
 
 import allure
 import random
-from module_5.Cinescope.db_requester.models import AccountTransactionTemplate
+from db_requester.models import AccountTransactionTemplate
 import pytest
-from module_5.Cinescope.conftest import db_session_after_close
+# from conftest import db_session_after_close
 # Оригинал теста, без allure в module_5/Cinescope/tests/api/test_other_api.py
 
 @allure.epic("Тестирование транзакций")

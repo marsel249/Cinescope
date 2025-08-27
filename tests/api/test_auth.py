@@ -1,8 +1,8 @@
-from module_5.Cinescope.constants import BASE_URL, HEADERS, REGISTER_ENDPOINT,  LOGIN_ENDPOINT, SUPER_ADMIN_CREDS
-from module_5.Cinescope.api.api_manager import ApiManager
-from module_5.Cinescope.models.base_models import RegisterUserResponse, LoginResponse, TestUser, LoginRequest
-from module_5.Cinescope.enums.enums import Roles
-from module_5.Cinescope.db_requester.models import UserDBModel
+from constants import BASE_URL, HEADERS, REGISTER_ENDPOINT,  LOGIN_ENDPOINT, SUPER_ADMIN_CREDS
+from api.api_manager import ApiManager
+from models.base_models import RegisterUserResponse, LoginResponse, TestUser, LoginRequest
+from enums.enums import Roles
+from db_requester.models import UserDBModel
 from sqlalchemy.orm import Session
 
 
